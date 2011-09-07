@@ -2,9 +2,11 @@
 
 A simple e-mailing client in clojure using the org.apache.commons.mail wrapper.
 
-Make no doubt about it ... this thing rips off everything that is <a href="https://github.com/slagyr/mmemail">mmemail</a>, which is a fine piece of work except for two fine details.  The first is that when using leiningen, there is a security issue (some signed jar thingy).  This isn't a fault of mmemail, but I get tired of dealing with it.  Second, I couldn't, for the life of me, figure out how to add attachments.
+Make no doubt about it ... this thing rips off everything that is <a href="https://github.com/slagyr/mmemail">mmemail</a>, which is a fine piece of work except for one fine detail: I couldn't, for the life of me, figure out how to add attachments.
 
-So I wrote this library because somehow it seemed lazier than just figured out how to add attachments to mmemail (or, you know, do some social good and add a patch to mmemail that would allow attachments).
+So I wrote this library because somehow it seemed lazier than just figuring out how to add attachments to mmemail (or, you know, doing some social good, forking and patch mmemail so it could allow attachments).
+
+In retrospect, I probably should have forked mmemail.  My bad.
 
 ## Usage
 
